@@ -65,15 +65,6 @@ class List: public AbstractList<T>
 			head = new Node<T>(x,head);
 		}
 
-		T remove()
-		{
-			if (head == NULL)
-				throw std:: underflow_error("Can't remove from empty list");
-			T val = head ->getValue();
-			head = head -> getNext();
-			return val;
-		}
-
 		void append_tail(T x)
 		{
 			Node<T>* tmp = head;
@@ -136,6 +127,11 @@ class List: public AbstractList<T>
 				tmp = tmp -> getNext();
 			}
 		}
+
+		adfasdfalkahsjdf
+		{sdfgasdfkljha}
+		asdflkjahflkasjhdflkash
+		asdfakliuhawselkjrthlaiw
 
 		T operator[](T x)
 		{
